@@ -1,0 +1,52 @@
+.singleCrypto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    padding: 25px 5px;
+    justify-content: space-between;
+
+    &:nth-child(odd){
+        background-color: #272626;
+    }
+
+    .name {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    
+      a {
+        text-decoration: none;
+        color: #fff;
+        h2 {
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+      }
+    }
+
+    .symbol {
+        width: 50px;
+        text-transform: uppercase;
+    }
+
+    .price,
+    .volume,
+    .priceChange {
+        width: 100px;
+    }
+
+    .loss {
+        color: rgb(201, 6, 6);
+    }
+
+    .profit {
+        color: rgb(14, 158, 14);
+    }
+
+}
